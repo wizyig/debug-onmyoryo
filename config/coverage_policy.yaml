@@ -1,0 +1,12 @@
+coverage:
+  mode: full
+  global:
+    minimum: 80.0
+    allowed_regression: -0.5
+  modules:
+    fa_engine.py: 95.0
+    transition_engine.py: 90.0
+    semantic_validation.py: 90.0
+    graph_validation.py: 90.0
+    registry.py: 85.0
+    canonical_record.py: 85.0
